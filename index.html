@@ -14,7 +14,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end g-10" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="index.html" class="nav-link"></a>Home</li>
                     <li class="nav-item"><a href="about.html" class="nav-link"></a>About</li>
@@ -27,9 +27,60 @@
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <!--Slider-->
+    <div class="container mt-5 pt-4">
+        <div id="heroCarousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 800px;">
+            <!--indicators-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                
+            </div>
+            <!--slides/pictures-->
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="Haaland.jpg" class="d-block w-100" alt="Slide 1" height="350">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Jason</h4>
+                        <p>Building creative digital experiences with code and passion</p>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="1000">
+                    <img src="Lamine Yamal.jpg" class="d-block w-100" alt="Slide 1" height="350">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Jason</h4>
+                        <p>Building creative digital experiences with code and passion</p>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="1000">
+                    <img src="Salah.jpg" class="d-block w-100" alt="Slide 1" height="350">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Jason</h4>
+                        <p>Building creative digital experiences with code and passion</p>
+                    </div>
+                </div>
+                <div class="carousel-item " data-bs-interval="1000">
+                    <img src="Messi.jpg" class="d-block w-100" alt="Slide 1" height="350">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Jason</h4>
+                        <p>Building creative digital experiences with code and passion</p>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item " data-bs-interval="1000">
+                    <img src="Rashford.jpg" class="d-block w-100" alt="Slide 1" height="350">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Jason</h4>
+                        <p>Building creative digital experiences with code and passion</p>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="main.py"></script>
 </body>
 
 </html>
